@@ -1,4 +1,4 @@
-INSERT INTO users (id, username, email, password, academic_status, display_name, is_private, role, image, email_verified_at, description, university) VALUES 
+    INSERT INTO users (id, username, email, password, academic_status, display_name, is_private, role, image, email_verified_at, description, university) VALUES 
         (0, 'deleted_user', 'deleted_user', 'password1', 'Undergraduate', 'Deleted User', true, 2, null, '2023-11-23 14:18:29+00', 'A deleted user', 'University of Porto'),
         (1, 'johndoe', 'johndoe@example.com', '$2y$10$oI17OO.VH15Kn0i6S840ce6BB.9AH6iAjTfUeCDgz1zVzQbNJ4iiG', 'Undergraduate', 'John Doe', true, 2, null, '2023-11-23 14:18:29+00', 'An undergraduate student', 'University of Lisboa'),
         (2, 'alanturing', 'alanturing@example.com', '$2y$10$7POXBblYbJue.OPpsNkuyunXqb9QTNabWTp2oEmXIKwO3fPPe4JNq', 'Professor', 'Alan Turing', false, 2, null, '2023-11-23 14:18:29+00', 'A professor in Computer Science', 'University of Cambridge'),
